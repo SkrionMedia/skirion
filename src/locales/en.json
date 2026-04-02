@@ -1,0 +1,607 @@
+
+{
+  "common": {
+    "read_more": "Read full case",
+    "view_demo": "Watch Demo",
+    "results_real": "Real Results",
+    "operating_systems": "Operating Systems",
+    "knowledge_base": "Knowledge Base"
+  },
+  "testimonials": {
+    "badge": "Real Success Cases",
+    "title": "Real Problems,",
+    "title_accent": "SKIRION Solutions",
+    "problem_label": "The Problem",
+    "solution_label": "The SKIRION Solution",
+    "items": [
+      {
+        "problem": "I couldn't attend to all calls and emails, I was losing business opportunities every day.",
+        "solution": "Thanks to SKIRION, I can not only respond to everything but also follow up, all automated.",
+        "author": "Sales Director",
+        "company": "Real Estate Sector"
+      },
+      {
+        "problem": "My team spent 60% of their time on repetitive administrative tasks.",
+        "solution": "SKIRION's digital agent now manages 90% of these tasks, allowing us to focus on strategy.",
+        "author": "CEO",
+        "company": "Marketing Agency"
+      },
+      {
+        "problem": "Data fragmentation prevented us from making quick and accurate decisions.",
+        "solution": "With the industrial intelligence system, we have total real-time visibility of every process.",
+        "author": "Operations Director",
+        "company": "Logistics Company"
+      }
+    ]
+  },
+  "nav": {
+    "services": "Services",
+    "cases": "Cases",
+    "resources": "Resources",
+    "contact": "Contact",
+    "agents": "Our Agents",
+    "diagnostic": "Free Diagnostic"
+  },
+  "agents_page": {
+    "nav": "Our Agents",
+    "hero": {
+      "title": "Digital Agents that work while you are away.",
+      "subtitle": "They respond, qualify, schedule, follow up, and convert inquiries into sales.\nNo rest. No errors. No missed opportunities.",
+      "cta": "I want to see how they work in my business"
+    },
+    "problem": {
+      "title": "Most companies don't lose customers due to lack of interest.\nThey lose them due to lack of response.",
+      "text": "A customer enters your website.\nDoubts.\nAsks.\n\nIf they don't receive an immediate response, they leave.\n\nIf they receive a slow response, they talk to the competition.\n\nIf there is no follow-up, they forget about you.\n\nThis isn't marketing.\nIt's a system.\n\nAnd if you don't have a system, you have invisible losses every week.",
+      "cta": "I want to detect my losses",
+      "reflection": "FORGET ALL THIS WITH SKIRION.MEDIA"
+    },
+    "definition": {
+      "title": "A digital agent is not a friendly chat.\nIt's a work system.",
+      "text": "A digital agent is a tool that:\n• Responds to common questions\n• Qualifies potential customers\n• Schedules visits or calls\n• Sends information automatically\n• Follows up if there is no response\n• Recovers contacts who dropped out halfway\n\nAll this without you having to be on top of it.\n\n24 hours a day."
+    },
+    "types": {
+      "title": "Types of agents we implement",
+      "ideal_for_label": "Ideal for:",
+      "how_it_works_label": "How it works:",
+      "live_demo": "Live Demo",
+      "items": [
+        {
+          "id": "text",
+          "title": "Text Agent",
+          "ideal_for": "Web, WhatsApp, Forms, Social media",
+          "how_it_works": "The customer asks. The agent responds clearly. If it detects real interest, it qualifies. If it fits, it schedules directly.",
+          "result": "Less manual work and more speed."
+        },
+        {
+          "id": "voice",
+          "title": "Voice Agent",
+          "ideal_for": "Inbound calls, Appointment confirmation, Reminders, Follow-up",
+          "how_it_works": "Responds to basic questions, schedules visits, confirms appointments, and collects data before a salesperson calls.",
+          "result": "Fewer missed calls, more real opportunities."
+        },
+        {
+          "id": "followup",
+          "title": "Follow-up Agent",
+          "ideal_for": "Quotes, Contact reactivation, Personalized messages",
+          "how_it_works": "Reminds about sent quotes, reactivates contacts, sends personalized messages, and detects latent interest.",
+          "result": "More closings without more traffic."
+        },
+        {
+          "id": "avatar",
+          "title": "Corporate Avatar (optional)",
+          "ideal_for": "Explaining services, Showing products, Presenting information, Demonstrations",
+          "how_it_works": "A visible, coherent, and constant face that brings trust and consistency.",
+          "result": "Consistency and trust."
+        }
+      ]
+    },
+    "sectors": {
+      "badge": "👥 OUR CLIENTS",
+      "title": "Who we help",
+      "items": [
+        {
+          "title": "Real Estate",
+          "points": [
+            "Immediate response to inquiries",
+            "Buyer qualification",
+            "Automatic visit scheduling",
+            "Post-visit follow-up"
+          ],
+          "result": "More qualified visits."
+        },
+        {
+          "title": "Clinics",
+          "points": [
+            "Automatic appointment confirmation",
+            "Reduction of no-shows",
+            "Response to common questions",
+            "Post-treatment follow-up"
+          ],
+          "result": "More order and fewer losses."
+        },
+        {
+          "title": "E-commerce",
+          "points": [
+            "Resolves doubts before buying",
+            "Recovers abandoned carts",
+            "Offers related products",
+            "Post-purchase follow-up"
+          ],
+          "result": "More conversion without more advertising."
+        },
+        {
+          "title": "Industrial",
+          "points": [
+            "Collects data from potential customers",
+            "Sends automatic information",
+            "Reminds about quotes",
+            "Gives control to the sales department"
+          ],
+          "result": "More follow-up, more margin."
+        }
+      ]
+    },
+    "process": {
+      "title": "We don't install robots. We install a system.",
+      "step_label": "Step",
+      "steps": [
+        { "title": "Diagnosis", "desc": "We analyze where opportunities are lost." },
+        { "title": "Design", "desc": "We define exactly what the agent should do." },
+        { "title": "Implementation", "desc": "We activate it on the web, phone, or internal system." },
+        { "title": "Adjustment", "desc": "We measure results and adjust messages." }
+      ],
+      "footer": "All this in 30 days."
+    },
+    "real_results": {
+      "title": "Real result",
+      "intro": "After implementing digital agents, companies usually see:",
+      "stats": {
+        "response_time": "Response time",
+        "conversion": "Conversion",
+        "availability": "Availability",
+        "human_errors": "Human errors"
+      },
+      "items": [
+        "Response in less than 1 minute",
+        "More appointments scheduled",
+        "More follow-up",
+        "Less wasted time",
+        "More control of the commercial process"
+      ],
+      "footer": "It's not magic. It's a system."
+    },
+    "final_cta": {
+      "title": "If you want to know if your business needs a digital agent, let's start here:",
+      "button1": "Take free diagnosis (2 minutes)",
+      "direct_title": "Or if you prefer to go direct:",
+      "button2": "I want to talk for 15 minutes and see the plan"
+    }
+  },
+  "hero": {
+    "badge": "🚀 GROWTH",
+    "title": "How much revenue potential is your company missing out on every month?",
+    "subtitle": "Every unanswered call and every pending message is a growth opportunity that your company can capture today.\n\nAt SKIRION, we implement digital agents that work 24/7 so your business multiplies its sales, optimizes processes, and runs with total fluidity.",
+    "cta": "Discover your growth potential",
+    "cta_secondary": "Receive personalized analysis"
+  },
+  "problem": {
+    "badge": "Every customer inquiry is a growth opportunity when the system responds with speed.",
+    "title": "Are you aware that your business is losing customers without you knowing it?",
+    "subtitle_blue": "Every missed call is a missed opportunity.",
+    "subtitle_secondary": "Automate your business with AI agents.",
+    "missed_call": "Missed call",
+    "potential_customer": "Potential customer waiting...",
+    "items": [
+      "Calls waiting for response",
+      "WhatsApp messages pending reply",
+      "Accumulated emails",
+      "Reservations pending confirmation",
+      "Slow responses to customers"
+    ],
+    "footer": "Ensure the customer always chooses your proposal."
+  },
+  "consequence": {
+    "badge": "💸 CONSEQUENCE",
+    "title": "Organization is the key to capturing every cent of profit.",
+    "subtitle": "Every pending interaction is a golden opportunity. Every automated task is time that scales. Every agility is a more loyal customer.",
+    "footer": "And the best part: now you can have total control."
+  },
+  "solution": {
+    "badge": "🛠️ SOLUTION",
+    "title": "Your tireless digital team.",
+    "items": [
+      {
+        "title": "24/7 Support",
+        "desc": "Your clients value immediacy. Instant responses on WhatsApp, Instagram, and Web."
+      },
+      {
+        "title": "Automatic Qualification",
+        "desc": "We filter those interested and deliver only leads ready to buy."
+      },
+      {
+        "title": "Direct Scheduling",
+        "desc": "Your calendar manages itself. With total fluidity and speed."
+      },
+      {
+        "title": "Total Integration",
+        "desc": "We connect with your CRM, Google Calendar, or current booking system."
+      }
+    ]
+  },
+  "real_cases": {
+    "badge": "👥 OUR CLIENTS",
+    "title": "What used to be chaos is now profitability.",
+    "items": [
+      {
+        "title": "Real Estate",
+        "desc": "Agents that show properties while you rest."
+      },
+      {
+        "title": "Clinics and Aesthetics",
+        "desc": "Confirmed appointments without the phone ringing."
+      },
+      {
+        "title": "B2B Services",
+        "desc": "Data capture and lead filtering in seconds."
+      },
+      {
+        "title": "E-commerce and Retail",
+        "desc": "Doubt resolution and closing sales in real-time."
+      }
+    ]
+  },
+  "profit": {
+    "badge": "💰 PROFIT",
+    "title": "Make your business work for you with total efficiency.",
+    "text": "We offer freedom, time, and a higher profit margin.",
+    "stats": [
+      { "label": "Lead capture", "value": "+30%" },
+      { "label": "Task efficiency", "value": "+50%" },
+      { "label": "Immediate availability", "value": "100%" }
+    ]
+  },
+  "offers": {
+    "badge": "💎 OUR AGENTS",
+    "title": "Tailored solutions for every need.",
+    "subtitle": "From simple automations to complex AI systems.",
+    "items": [
+      {
+        "title": "Sales & WhatsApp Agent",
+        "desc": "Closes sales and resolves doubts 24/7."
+      },
+      {
+        "title": "Scheduling Agent",
+        "desc": "Manages your calendar and confirms appointments."
+      },
+      {
+        "title": "Support Agent",
+        "desc": "Handles incidents and guides the client."
+      },
+      {
+        "title": "Lead Capture Agent",
+        "desc": "Filters and qualifies prospects."
+      }
+    ]
+  },
+  "results_section": {
+    "title": "Your Results",
+    "example": {
+      "before_label": "BEFORE",
+      "after_label": "AFTER",
+      "impact_label": "Total Impact",
+      "agent_active": "Agent Active",
+      "before": "Before: 12h weekly on manual tasks.",
+      "after": "After: 2h automated.",
+      "impact": "Impact: +18% operational margin."
+    }
+  },
+  "lead_magnet": {
+    "title": "Checklist: 25 margin leaks that AI can eliminate.",
+    "subtitle": "Detect the 25 margin leaks that limit your growth potential.",
+    "cta": "Check it for free"
+  },
+  "final_cta": {
+    "title": "Did you know you could generate more leads without increasing your effort?",
+    "subtitle": "With automated systems that work while you rest.",
+    "cta": "Schedule call"
+  },
+  "free_web": {
+    "title": "We create your website. For free.",
+    "subtitle": "Our commitment is to help you generate more revenue with effective solutions."
+  },
+  "email_capture": {
+    "title": "Discover how much your business could grow.",
+    "subtitle": "Leave us your email and we will send you an analysis with the potential revenue you could generate by automating your company.",
+    "button": "Receive analysis"
+  },
+  "security": {
+    "title": "Well-designed digital systems turn complexity into simplicity.",
+    "subtitle": "At SKIRION.MEDIA we activate:",
+    "points": [
+      "Digital agents that respond and qualify",
+      "Automation that follows up",
+      "Real control of commercial processes",
+      "Clear reports that explain what's happening"
+    ],
+    "timeline": "All in 30 days.",
+    "tags": ["Total order", "Optimized workload", "Clear language"],
+    "action_title": "Immediate Action Plan",
+    "cta": "I want the plan in 7 days"
+  },
+  "sectors": {
+    "badge": "Pain Points by Sector",
+    "items": {
+      "real_estate": {
+        "title": "Real Estate",
+        "text": "If a buyer writes and doesn't get an immediate response, they're probably already talking to another agency."
+      },
+      "clinics": {
+        "title": "Clinics",
+        "text": "Every unconfirmed visit is a direct hole in revenue."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "text": "If the client hesitates and you don't guide them, they buy elsewhere."
+      },
+      "industrial": {
+        "title": "Industrial",
+        "text": "Quotes without follow-up are margin that disappears."
+      }
+    }
+  },
+  "ideal_state": {
+    "badge": "The Ideal State",
+    "items": {
+      "real_estate": {
+        "title": "Real Estate",
+        "points": ["More qualified visits", "Less wasted time", "More control"]
+      },
+      "clinics": {
+        "title": "Clinics",
+        "points": ["Ordered agenda", "Fewer absences", "More peace of mind"]
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "points": ["More conversion", "Sales recovery", "Immediate attention"]
+      },
+      "industrial": {
+        "title": "Industrial",
+        "points": ["Automatic follow-up", "Commercial order", "Protected margin"]
+      }
+    }
+  },
+  "experience": {
+    "title": "At SKIRION, we activate digital systems that bring clarity and structure to your business.",
+    "subtitle": "Technology designed so your business operates with more serenity and foresight.",
+    "items": [
+      { "id": "1", "title": "Less internal tension" },
+      { "id": "2", "title": "More real control" },
+      { "id": "3", "title": "Data-driven decisions" }
+    ],
+    "control": "It's not just about selling more. It's about feeling the business is under control.",
+    "cta": "I want to start with a free diagnosis"
+  },
+  "alert": {
+    "title": "Automation and real follow-up are the keys to your forecasting.",
+    "uncertainty": "And without forecasting, there is only uncertainty."
+  },
+  "final_visualization": {
+    "title": "Imagine a business that moves forward with order, speed, and control.",
+    "points": [
+      "How many potential clients entered",
+      "How many were converted",
+      "Where they were lost",
+      "What was improved"
+    ],
+    "direction": "When the system is clear, the business direction becomes more secure.",
+    "business": "This is business."
+  },
+  "cta_final": {
+    "badge": "Security and Control",
+    "title": "Let's start with a simple step.",
+    "footer": "SKIRION.MEDIA © 2024 · Guaranteed Efficiency Protocol"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Engineering solutions for the attention economy and operational efficiency.",
+    "items": {
+      "audit": {
+        "title": "AI & Cost Audit",
+        "desc": "We analyze every corner of your operation to identify inefficiencies that AI can solve.",
+        "features": ["Current process mapping", "Bottleneck identification", "Estimated automation ROI", "Technology roadmap"],
+        "price": "From 600€ (depending on company volume)"
+      },
+      "automation": {
+        "title": "Automations",
+        "desc": "We design and build autonomous systems that connect your tools and eliminate manual work.",
+        "features": ["API integration", "Customer service bots", "Intelligent document management", "Sales workflows"],
+        "price": "From 1,500€"
+      },
+      "content": {
+        "title": "Content Engine (Video)",
+        "desc": "Massive audiovisual infrastructure backed by AI to produce high-impact content at scale.",
+        "features": ["AI scripting", "Automated editing", "Multichannel distribution", "Real-time performance analysis"],
+        "price": "Pack 20 videos (30-40\"): 900€\nPack 10 videos: 500€"
+      }
+    },
+    "cta": "Start now"
+  },
+  "cases": {
+    "title": "Success Cases",
+    "subtitle": "Real results, measurable impact. How we have transformed operations with technology.",
+    "before": "Before",
+    "after": "After",
+    "impact": "Impact",
+    "time": "Time",
+    "view_video": "Watch short video",
+    "items": [
+      {
+        "title": "E-commerce Automation",
+        "client": "Global Retail Brand",
+        "impact": "70% time saving",
+        "time": "3 weeks",
+        "before": "Manual management of 500 orders/day",
+        "after": "100% autonomous system with AI",
+        "desc": "We implemented a workflow that manages everything from order receipt to post-sales service without human intervention."
+      },
+      {
+        "title": "Content Engine Scaling",
+        "client": "Tech Media House",
+        "impact": "10x production",
+        "time": "1 month",
+        "before": "2 videos/week",
+        "after": "20 videos/week",
+        "desc": "Massive production infrastructure that uses AI for scripting and preliminary editing."
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Tools, guides, and knowledge to help you scale your business.",
+    "download": "TAKE YOUR TEST",
+    "newsletter": {
+      "title": "Want exclusive content every week?",
+      "subtitle": "Join our attention engineering newsletter and receive the latest strategies directly in your inbox.",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    },
+    "items": [
+      {
+        "title": "Automation Guide",
+        "type": "PDF / Guide",
+        "desc": "10 automations you can apply today to save 10h per week.",
+        "cta": "DOWNLOAD FOR FREE"
+      },
+      {
+        "title": "AI Audit Checklist",
+        "type": "Checklist",
+        "desc": "Is your company ready for AI? Find out with this 20-point checklist.",
+        "cta": "CHECK FOR FREE"
+      },
+      {
+        "title": "Masterclass: Content Engine",
+        "type": "Video",
+        "desc": "How to produce 50 high-impact content pieces in less than 4 hours.",
+        "cta": "REQUEST FREE CLASS"
+      }
+    ]
+  },
+  "chatbot": {
+    "initial_message": "Hello! I am the SKIRION assistant. How can I help you automate your business and stop losing money?",
+    "placeholder": "Write your message...",
+    "system_instruction": "You are a resolutive assistant for SKIRION.MEDIA. Your goal is to encourage clients to realize the money loss their businesses have due to lack of automation and encourage them to automate functions with skirion.media. Be professional, direct, and results-focused."
+  },
+  "footer": {
+    "phrase": "We transform your efficiency into measurable results.",
+    "email": "info@skirionmedia.com",
+    "phone": "+34 644 86 96 15"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk for 15 minutes and discover how your business can grow with SKIRION.",
+    "intro_title": "Let's start the change",
+    "intro_text": "If you are looking to optimize costs, scale your content production, or simply understand how AI can help you, we are here.",
+    "calendar_title": "Book 15 minutes",
+    "calendar_subtitle": "Choose a slot in our calendar",
+    "whatsapp_title": "Direct WhatsApp",
+    "whatsapp_subtitle": "Quick response for specific questions",
+    "whatsapp_message": "Hello, I am interested in improving my company with SKIRION.",
+    "email_subtitle": "For detailed proposals",
+    "form_title": "Send us a message",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "company": "Company",
+      "company_placeholder": "Company name",
+      "email": "Email Address",
+      "email_placeholder": "hello@company.com",
+      "message": "Message",
+      "message_placeholder": "How can we help you?",
+      "send": "Send Message"
+    },
+    "success_title": "Thank you for contacting Skirion.Media",
+    "success_subtitle": "Our digital agents will respond to you immediately.",
+    "success_button": "Understood",
+    "protocol_connection": "Connection Protocol"
+  },
+  "calculator": {
+    "badge": "🧮 LEAK CALCULATOR",
+    "title": "Calculate the revenue potential you can capture today.",
+    "subtitle": "Enter your data and discover the positive impact of having an automated system.",
+    "company_name": "Company",
+    "monthly_revenue": "Monthly revenue",
+    "time_spent": "Time in operations",
+    "calculate": "Calculate Loss",
+    "result_title": "Estimated Annual Loss",
+    "result_desc": "This is the money your company is missing out on due to lack of automation.",
+    "monthly_loss_label": "Monthly Loss",
+    "lost_revenue_label": "Annual Loss",
+    "recovery_label": "Recoverable with SKIRION",
+    "recalculate": "Recalcular",
+    "per_month": "/ month",
+    "per_week": "h / week",
+    "per_year": "/ year",
+    "cta_recover": "I want to recover my margin"
+  },
+  "checklist_page": {
+    "badge": "Efficiency Analysis",
+    "title": "Checklist: 25 points to optimize customer acquisition in your company",
+    "subtitle": "Discover margin leaks in your sales process and how AI can help you eliminate them.",
+    "warning": "It is necessary to finish the test to get the result",
+    "progress": "Progress",
+    "leaks_detected": "Leaks detected",
+    "yes": "YES",
+    "no_improve": "TO IMPROVE",
+    "result_meaning": "What does your result mean?",
+    "result_desc": "You have detected {{count}} margin leaks in your sales process.",
+    "result_high_risk": "It is very likely that your company is losing customers, time, and margin every week. You need an immediate automation intervention.",
+    "result_low_risk": "You have a good foundation, but there are key opportunities to optimize and scale your operation with AI.",
+    "result_footer": "At SKIRION.MEDIA we analyze these points with our AI Margin Leak Scanner to detect opportunities for improvement and automation.",
+    "cta_diagnostic": "Request your diagnosis",
+    "cta_save": "Save Analysis",
+    "modal_title": "Receive your full analysis",
+    "modal_subtitle": "Enter your professional email to receive the PDF with detailed results and SKIRION recommendations.",
+    "modal_placeholder": "Your professional email",
+    "modal_button_sending": "Sending...",
+    "modal_button_send": "Send and Download",
+    "modal_success_title": "Sent successfully!",
+    "modal_success_desc": "Check your inbox. The PDF has also been downloaded automatically.",
+    "modal_close": "Close",
+    "footer_note": "SKIRION.MEDIA · Guaranteed Efficiency Protocol",
+    "questions": [
+      "Does your company clearly explain what it does and for whom?",
+      "Does a customer understand in less than 5 seconds what benefit they get?",
+      "Does your website have a clear result-oriented message?",
+      "Does your website convey professionalism and trust?",
+      "Does the page load fast on mobile?",
+      "Does the visitor know what step to take next?",
+      "Does your website have simple forms to capture leads?",
+      "Do you have a visible WhatsApp button?",
+      "Do you offer any free resource to attract contacts?",
+      "Do you respond to leads in less than 5 minutes?",
+      "Do you have an automatic initial response system?",
+      "Can your company respond outside business hours?",
+      "Are all contacts organized in a CRM?",
+      "Do you know where each lead comes from?",
+      "Do you classify leads according to interest or customer type?",
+      "Can customers easily book a meeting online?",
+      "Do you send automatic appointment reminders?",
+      "Is there a clear process from contact to meeting?",
+      "Do you follow up on sent quotes?",
+      "Do you contact leads with pending response again?",
+      "Does your team know which leads are most likely to buy?",
+      "Are there repetitive tasks that could be automated?",
+      "Do you use AI to answer frequently asked questions?",
+      "Do you have automations to send information or documents?",
+      "Do you measure how many leads actually become customers?"
+    ]
+  },
+  "cta": {
+    "badge": "Zero Risk Guaranteed",
+    "title": "We only move forward with clear and secure opportunities.",
+    "subtitle": "We seek strategic partners with vision to scale the only infrastructure capable of guaranteeing attention dominance and real operational efficiency.",
+    "button_primary": "Book 15 minutes",
+    "button_secondary": "View Success Cases",
+    "footer": "SKIRION.MEDIA © 2024 · All Rights Reserved · Confidentiality Protocol"
+  }
+}

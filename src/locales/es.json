@@ -1,0 +1,565 @@
+{
+  "common": {
+    "read_more": "Leer caso completo",
+    "view_demo": "Ver Demo",
+    "results_real": "Resultados Reales",
+    "operating_systems": "Sistemas de Trabajo",
+    "knowledge_base": "Ayuda y Guías"
+  },
+  "testimonials": {
+    "badge": "Casos de Éxito Reales",
+    "title": "Problemas Reales,",
+    "title_accent": "Soluciones SKIRION",
+    "problem_label": "El Problema",
+    "solution_label": "La Solución SKIRION",
+    "items": [
+      {
+        "problem": "No podía atender todas las llamadas y correos, perdía oportunidades de negocio cada día.",
+        "solution": "Gracias a SKIRION no solo puedo dar respuesta a todo sino que puedo hacer el seguimiento, todo automatizado.",
+        "author": "Director Comercial",
+        "company": "Sector Inmobiliario"
+      },
+      {
+        "problem": "Mi equipo pasaba el 60% del tiempo realizando tareas administrativas repetitivas.",
+        "solution": "El agente digital de SKIRION gestiona ahora el 90% de estas tareas, permitiéndonos centrarnos en la estrategia.",
+        "author": "CEO",
+        "company": "Agencia de Marketing"
+      },
+      {
+        "problem": "La fragmentación de datos nos impedía tomar decisiones rápidas y acertadas.",
+        "solution": "Con el sistema de inteligencia industrial, tenemos visibilidad total en tiempo real de cada proceso.",
+        "author": "Director de Operaciones",
+        "company": "Empresa Logística"
+      }
+    ]
+  },
+  "nav": {
+    "services": "Qué hacemos",
+    "cases": "Ejemplos",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "agents": "Agentes Digitales",
+    "diagnostic": "Análisis Gratuito"
+  },
+  "agents_page": {
+    "nav": "Agentes Digitales",
+    "hero": {
+      "title": "SABES CUANTO DINERO ESTÁ PERDIENDO TU EMPRESA CADA DIA?",
+      "subtitle": "Responden, filtran clientes, reservan citas y hacen el seguimiento por ti.\nSin descanso. Sin errores. Sin perder ninguna venta.",
+      "cta": "Quiero ver cómo funcionan"
+    },
+    "problem": {
+      "title": "La mayoría de empresas no pierden clientes por falta de interés.\nLos pierden por falta de respuesta.",
+      "text": "Un cliente entra en tu web.\nDuda.\nPregunta.\n\nSi no recibe respuesta inmediata, se va.\n\nSi recibe respuesta lenta, habla con la competencia.\n\nSi no hay seguimiento, se olvida de ti.\n\nEsto no es marketing.\nEs sistema.\n\nY si no tienes sistema, tienes pérdidas invisibles cada semana.",
+      "cta": "Quiero detectar mis pérdidas",
+      "reflection": "OLVÍDATE DE TODO ESTO CON SKIRION.MEDIA"
+    },
+    "definition": {
+      "title": "Un agente digital no es un chat simpático.\nEs un sistema de trabajo.",
+      "text": "Un agente digital es una herramienta que:\n• Responde las preguntas de siempre\n• Sabe quién es un cliente de verdad y quién no\n• Reserva visitas o llamadas en tu calendario\n• Envía la información que te piden al momento\n• Vuelve a escribir al cliente si no dice nada\n• Recupera personas que se habían olvidado de ti\n\nTodo esto sin que tú tengas que estar pendiente.\n\n24 horas al día."
+    },
+    "types": {
+      "title": "Cómo te podemos ayudar",
+      "ideal_for_label": "Ideal para:",
+      "how_it_works_label": "Cómo funciona:",
+      "live_demo": "Ejemplo en vivo",
+      "items": [
+        {
+          "id": "text",
+          "title": "Agente de texto",
+          "ideal_for": "Web, WhatsApp y redes sociales",
+          "how_it_works": "El cliente pregunta y el agente responde claramente. Si ve que quiere comprar, le pide los datos. Si todo encaja, le reserva una cita directamente.",
+          "result": "Menos trabajo para ti y respuestas al momento."
+        },
+        {
+          "id": "voice",
+          "title": "Agente de voz",
+          "ideal_for": "Llamadas, confirmar citas y recordatorios",
+          "how_it_works": "Responde llamadas, resuelve dudas básicas, reserva visitas y confirma que el cliente vendrá antes de que tengas que descolgar el teléfono.",
+          "result": "Ni una llamada perdida más."
+        },
+        {
+          "id": "followup",
+          "title": "Agente de seguimiento",
+          "ideal_for": "Presupuestos y clientes que no responden",
+          "how_it_works": "Recuerda a los clientes que tienen un presupuesto pendiente, vuelve a contactar con quien no ha dicho nada y detecta quién todavía está interesado.",
+          "result": "Más ventas sin tener que buscar más clientes."
+        },
+        {
+          "id": "avatar",
+          "title": "Cara visible (opcional)",
+          "ideal_for": "Explicar servicios y mostrar productos",
+          "how_it_works": "Una persona digital que habla y explica lo que haces, dando más confianza y una imagen más profesional.",
+          "result": "Confianza y buena imagen."
+        }
+      ]
+    },
+    "sectors": {
+      "badge": "👥 NUESTROS CLIENTES",
+      "title": "A quién ayudamos",
+      "items": [
+        {
+          "title": "Inmobiliarias",
+          "points": [
+            "Respuesta inmediata a consultas",
+            "Calificación de compradores",
+            "Agenda automática de visitas",
+            "Seguimiento post-visita"
+          ],
+          "result": "Más visitas calificadas."
+        },
+        {
+          "title": "Clínicas",
+          "points": [
+            "Confirmación automática de citas",
+            "Reducción de no-shows",
+            "Respuesta a preguntas habituales",
+            "Seguimiento post-tratamiento"
+          ],
+          "result": "Más orden y menos pérdidas."
+        },
+        {
+          "title": "E-commerce",
+          "points": [
+            "Resuelve dudas antes de comprar",
+            "Recupera carritos abandonados",
+            "Ofrece productos relacionados",
+            "Hace seguimiento postcompra"
+          ],
+          "result": "Más conversión sin más publicidad."
+        },
+        {
+          "title": "Industrial",
+          "points": [
+            "Recoge datos de posibles clientes",
+            "Envía información automática",
+            "Recuerda presupuestos",
+            "Da control al departamento comercial"
+          ],
+          "result": "Más seguimiento, más margen."
+        }
+      ]
+    },
+    "process": {
+      "title": "No instalamos robots. Instalamos sistema.",
+      "step_label": "Paso",
+      "steps": [
+        { "title": "Diagnóstico", "desc": "Analizamos dónde se pierden oportunidades." },
+        { "title": "Diseño", "desc": "Definimos qué debe hacer el agente exactamente." },
+        { "title": "Implementación", "desc": "Lo activamos en la web, teléfono o sistema interno." },
+        { "title": "Ajuste", "desc": "Medimos resultados y ajustamos mensajes." }
+      ],
+      "footer": "Todo esto en 30 días."
+    },
+    "real_results": {
+      "title": "Resultados de verdad",
+      "intro": "Cuando pones un agente digital, tu negocio cambia:",
+      "stats": {
+        "response_time": "Tiempo de respuesta",
+        "conversion": "Ventas y citas",
+        "availability": "Siempre abierto",
+        "human_errors": "Sin errores"
+      },
+      "items": [
+        "Respuesta en menos de 1 minuto",
+        "Más citas reservadas",
+        "Más seguimiento automático",
+        "Menos tiempo perdido",
+        "Más control de tus ventas"
+      ],
+      "footer": "No es magia. Es poner orden."
+    },
+    "final_cta": {
+      "title": "Si quieres saber si tu negocio necesita un agente digital, empecemos por aquí:",
+      "button1": "Hacer diagnóstico gratuito (2 minutos)",
+      "direct_title": "O si prefieres ir directo:",
+      "button2": "Quiero hablar 15 minutos y ver el plan"
+    }
+  },
+  "hero": {
+    "badge": "🚀 CRECIMIENTO",
+    "title": "¿Sabes cuánto dinero está perdiendo tu empresa cada día?",
+    "subtitle": "Cada llamada no atendida y cada mensaje en espera es una oportunidad de crecimiento que tu empresa puede capturar hoy mismo.\n\nEn SKIRION implementamos agentes digitales que trabajan 24/7 para que tu negocio multiplique sus ventas, optimice procesos y funcione con total fluidez.",
+    "cta": "Descubre tu potencial de crecimiento",
+    "cta_secondary": "Recibe tu análisis personalizado"
+  },
+  "problem": {
+    "badge": "Cada consulta de un cliente es una oportunidad de crecimiento cuando el sistema responde con velocidad.",
+    "title": "¿Eres consciente de que tu negocio está perdiendo clientes sin que lo sepas?",
+    "subtitle_blue": "Cada llamada pendiente es una oportunidad perdida.",
+    "subtitle_secondary": "Automatiza tu negocio con agentes de IA.",
+    "missed_call": "Llamada perdida",
+    "potential_customer": "Cliente potencial esperando...",
+    "items": [
+      "Llamadas pendientes de respuesta",
+      "Mensajes de WhatsApp por contestar",
+      "Emails acumulados",
+      "Reservas por confirmar",
+      "Respuestas lentas a los clientes"
+    ],
+    "footer": "Asegura que el cliente elija siempre tu propuesta."
+  },
+  "consequence": {
+    "badge": "💸 CONSECUENCIA",
+    "title": "La organización es la clave para capturar cada céntimo de beneficio.",
+    "subtitle": "Cada interacción pendiente es una oportunidad de oro. Cada tarea automatizada es tiempo que escala. Cada agilidad es un cliente más fiel.",
+    "footer": "Y lo mejor: ahora puedes tener el control total."
+  },
+  "solution": {
+    "badge": "🛠️ LA SOLUCIÓN",
+    "title": "Tu equipo digital que nunca se cansa.",
+    "items": [
+      {
+        "title": "Atención 24 horas",
+        "desc": "Tus clientes quieren respuestas ya. Respondemos al momento por WhatsApp, Instagram y Web."
+      },
+      {
+        "title": "Filtro de clientes",
+        "desc": "Separamos a los interesados y te entregamos solo los que realmente quieren comprar."
+      },
+      {
+        "title": "Reserva de citas",
+        "desc": "Tu calendario se gestiona solo. Con total facilidad y rapidez."
+      },
+      {
+        "title": "Todo conectado",
+        "desc": "Nos conectamos con tus programas de cada día (calendario, lista de clientes, etc.)."
+      }
+    ]
+  },
+  "real_cases": {
+    "badge": "👥 NUESTROS CLIENTES",
+    "title": "Lo que antes era caos, ahora es rentabilidad.",
+    "items": [
+      {
+        "title": "Inmobiliarias",
+        "desc": "Agentes que enseñan propiedades mientras tú descansas."
+      },
+      {
+        "title": "Clínicas y Estética",
+        "desc": "Citas confirmadas sin que suene el teléfono."
+      },
+      {
+        "title": "Empresas de servicios",
+        "desc": "Recogida de dades y selección de clientes en segundos."
+      },
+      {
+        "title": "Tiendas online",
+        "desc": "Resolución de dudas y ventas al momento."
+      }
+    ]
+  },
+  "profit": {
+    "badge": "💰 BENEFICIO",
+    "title": "Haz que tu negocio trabaje para ti con total eficiencia.",
+    "text": "Ofrecemos libertad, tiempo y un mayor margen de beneficio.",
+    "stats": [
+      { "label": "Nuevos clientes", "value": "+30%" },
+      { "label": "Trabajo hecho más rápido", "value": "+50%" },
+      { "label": "Siempre abierto", "value": "100%" }
+    ]
+  },
+  "offers": {
+    "badge": "💎 NUESTROS AGENTES",
+    "title": "Soluciones a medida para cada necesidad.",
+    "subtitle": "Desde automatizaciones sencillas hasta sistemas complejos de IA.",
+    "items": [
+      {
+        "title": "Agente de Ventas & WhatsApp",
+        "desc": "Cierra ventas y resuelve dudas 24/7."
+      },
+      {
+        "title": "Agente de Citas",
+        "desc": "Gestiona tu calendario y confirma las visitas."
+      },
+      {
+        "title": "Agente de Soporte",
+        "desc": "Atiende incidencias y guía al cliente."
+      },
+      {
+        "title": "Agente de Nuevos Clients",
+        "desc": "Encuentra y selecciona los mejores clientes."
+      }
+    ]
+  },
+  "results_section": {
+    "title": "Tus Resultados",
+    "example": {
+      "before_label": "ANTES",
+      "after_label": "DESPUÉS",
+      "impact_label": "Impacto Total",
+      "agent_active": "Agente Activo",
+      "before": "Antes: 12h semanales en trabajos manuales.",
+      "after": "Después: 2h automatizadas.",
+      "impact": "Impacto: +18% de beneficio."
+    }
+  },
+  "lead_magnet": {
+    "title": "Checklist: 25 puntos para encontrar más clientes para tu empresa",
+    "subtitle": "Descubre dónde estás perdiendo dinero en tus ventas y cómo la IA te ayudará a evitarlo.",
+    "cta": "Hacer el test gratis"
+  },
+  "final_cta": {
+    "title": "¿Sabes que podrías generar más clientes sin aumentar tu esfuerzo?",
+    "subtitle": "Con sistemas automatizados que trabajan mientras tú descansas.",
+    "cta": "Agendar llamada"
+  },
+  "free_web": {
+    "title": "Creamos tu web. Gratis.",
+    "subtitle": "Nuestro compromiso es ayudarte a generar más ingresos con soluciones efectivas."
+  },
+  "email_capture": {
+    "title": "Descubre cuánto podría crecer tu negocio.",
+    "subtitle": "Déjanos tu email y te enviaremos un análisis con el potencial de ingresos que podrías generar automatizando tu empresa.",
+    "button": "Recibir análisis"
+  },
+  "security": {
+    "title": "Los sistemas digitales bien diseñados convierten complejidad en simplicidad.",
+    "subtitle": "En SKIRION.MEDIA activamos:",
+    "points": [
+      "Agentes digitales que responden y califican",
+      "Automatización que hace seguimiento",
+      "Control real de procesos comerciales",
+      "Informes claros que te explican qué está pasando"
+    ],
+    "timeline": "Todo en 30 días.",
+    "tags": ["Orden total", "Eficiencia máxima", "Lenguaje claro"],
+    "action_title": "Plan de Acción Inmediato",
+    "cta": "Quiero el plan en 7 días"
+  },
+  "sectors": {
+    "badge": "Puntos de Dolor por Sector",
+    "items": {
+      "real_estate": {
+        "title": "Inmobiliarias",
+        "text": "Si un comprador escribe y la respuesta se retrasa, probablemente ya está hablando con otra inmobiliaria."
+      },
+      "clinics": {
+        "title": "Clínicas",
+        "text": "Cada visita pendiente de confirmación afecta directamente a la facturación."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "text": "Si el cliente duda y le falta guía, buscará otra opción."
+      },
+      "industrial": {
+        "title": "Industrial",
+        "text": "Los presupuestos sin seguimiento son margen que desaparece."
+      }
+    }
+  },
+  "ideal_state": {
+    "badge": "El Estado Ideal",
+    "items": {
+      "real_estate": {
+        "title": "Inmobiliarias",
+        "points": ["Más visitas cualificadas", "Menos tiempo perdido", "Más control"]
+      },
+      "clinics": {
+        "title": "Clínicas",
+        "points": ["Agenda ordenada", "Menos ausencias", "Más tranquilidad"]
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "points": ["Más conversión", "Recuperación de ventas", "Atención inmediata"]
+      },
+      "industrial": {
+        "title": "Industrial",
+        "points": ["Seguimiento automático", "Orden comercial", "Margen protegido"]
+      }
+    }
+  },
+  "experience": {
+    "title": "En SKIRION activamos sistemas digitales que aportan claridad y estructura a tu negocio.",
+    "subtitle": "Tecnología pensada para que tu negocio funcione con más serenidad y previsión.",
+    "items": [
+      { "id": "1", "title": "Menos tensión interna" },
+      { "id": "2", "title": "Más control real" },
+      { "id": "3", "title": "Decisiones basadas en datos" }
+    ],
+    "control": "No es solo vender más. Es sentir que el negocio está bajo control.",
+    "cta": "Quiero empezar con un diagnóstico gratuito"
+  },
+  "alert": {
+    "title": "La automatización y el seguimiento real son la base de tu previsión.",
+    "uncertainty": "Y sin previsión, solo hay incertidumbre."
+  },
+  "final_visualization": {
+    "title": "Imagina un negocio que avanza con orden, velocidad y control.",
+    "points": [
+      "Cuántos posibles clientes han entrado",
+      "Cuántos se han convertido",
+      "Dónde se han perdido",
+      "Qué se ha mejorado"
+    ],
+    "direction": "Cuando el sistema es claro, la dirección del negocio se vuelve más segura.",
+    "business": "Esto es empresa."
+  },
+  "cta_final": {
+    "badge": "Seguridad y Control",
+    "title": "Empecemos con un paso simple.",
+    "footer": "SKIRION.MEDIA © 2024 · Protocolo de Eficiencia Garantizado"
+  },
+  "services": {
+    "title": "Qué hacemos",
+    "subtitle": "Soluciones prácticas para atraer clientes y trabajar mejor.",
+    "items": {
+      "audit": {
+        "title": "Análisis de Ahorro e IA",
+        "desc": "Miramos cada parte de tu empresa para encontrar dónde pierdes tiempo y cómo la IA te puede hacer ahorrar.",
+        "features": ["Ver cómo trabajas ahora", "Encontrar dónde pierdes tiempo", "Cálculo de dinero que ahorrarás", "Plan de mejora paso a paso"],
+        "price": "Desde 600€ (según la empresa)"
+      },
+      "automation": {
+        "title": "Trabajos Automáticos",
+        "desc": "Diseñamos y construimos sistemas que hacen el trabajo por ti, conectando tus programas y eliminando el trabajo manual.",
+        "features": ["Conectar tus programas", "Respuestas automáticas", "Gestión de papeles inteligente", "Proceso de venta automático"],
+        "price": "Desde 1.500€"
+      },
+      "content": {
+        "title": "Fábrica de Vídeos",
+        "desc": "Creamos muchos vídeos de calidad con la ayuda de la IA para llegar a miles de personas.",
+        "features": ["Guiones hechos con IA", "Edición ultra-rápida", "Publicación en todas partes", "Resultados al momento"],
+        "price": "Pack 20 vídeos: 900€\nPack 10 vídeos: 500€"
+      }
+    },
+    "cta": "Empezar ahora"
+  },
+  "cases": {
+    "title": "Casos de éxito",
+    "subtitle": "Empresas que ya han dado el paso hacia la eficiencia.",
+    "items": {
+      "real_estate": {
+        "title": "Inmobiliaria Mediterránea",
+        "desc": "Hemos automatizado la respuesta a Idealista y Fotocasa. Ahora ningún cliente espera más de 2 minutos.",
+        "result": "+45% de visitas agendadas"
+      },
+      "clinic": {
+        "title": "Clínica Dental Dr. Font",
+        "desc": "Un agente de WhatsApp gestiona las citas y recordatorios. El teléfono ya no suena todo el día.",
+        "result": "-30% de ausencias"
+      }
+    }
+  },
+  "resources": {
+    "title": "Recursos",
+    "subtitle": "Herramientas, guías y conocimiento para ayudarte a escalar tu negocio.",
+    "newsletter": {
+      "title": "¿Quieres recibir consejos cada semana?",
+      "subtitle": "Apúntate a nuestra lista y recibe las últimas estrategias para mejorar tu empresa.",
+      "placeholder": "Tu mejor email",
+      "button": "Suscribirme"
+    },
+    "items": [
+      {
+        "title": "Guía de Automatización",
+        "type": "PDF / Guía",
+        "desc": "10 automatizaciones que puedes aplicar hoy mismo para ahorrar 10h a la semana.",
+        "cta": "DESCARGAR GRATIS"
+      },
+      {
+        "title": "Checklist Auditoría IA",
+        "type": "Checklist",
+        "desc": "¿Está tu empresa preparada para la IA? Descúbrelo con este checklist de 20 puntos.",
+        "cta": "DESCARGAR GRATIS"
+      }
+    ]
+  },
+  "contact": {
+    "title": "¿Hablamos?",
+    "subtitle": "Cuéntanos qué necesitas y te diremos cómo te podemos ayudar.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "success": "¡Mensaje enviado! Te responderemos muy pronto."
+    }
+  },
+  "calculator": {
+    "title": "Calculadora de Ahorro",
+    "subtitle": "Descubre cuánto dinero estás perdiendo por no automatizar.",
+    "labels": {
+      "employees": "Número de empleados",
+      "hours": "Horas manuales por empleado/semana",
+      "cost": "Coste por hora (€)"
+    },
+    "results": {
+      "weekly": "Ahorro semanal",
+      "monthly": "Ahorro mensual",
+      "yearly": "Ahorro anual"
+    },
+    "cta": "Quiero ahorrar este dinero"
+  },
+  "checklist_page": {
+    "badge": "Análisis de Eficiencia",
+    "title": "Checklist: 25 puntos para encontrar más clientes para tu empresa",
+    "subtitle": "Descubre dónde estás perdiendo dinero en tus ventas y cómo la IA te ayudará a evitarlo.",
+    "warning": "Es necesario finalizar el test para obtener el resultado",
+    "progress": "Progreso",
+    "leaks_detected": "Fugas detectadas",
+    "yes": "SÍ",
+    "no_improve": "POR MEJORAR",
+    "result_meaning": "¿Qué significa tu resultado?",
+    "result_desc": "Has detectado {{count}} fugas de margen en tu proceso comercial.",
+    "result_high_risk": "Es muy probable que tu empresa esté perdiendo clientes, tiempo y margen cada semana. Necesitas una intervención de automatización inmediata.",
+    "result_low_risk": "Tienes una buena base, pero hay oportunidades clave para optimizar y escalar tu operación con IA.",
+    "result_footer": "En SKIRION.MEDIA analizamos estos puntos para detectar oportunidades de mejora y automatización.",
+    "cta_diagnostic": "Solicita tu diagnóstico",
+    "cta_save": "Guardar Análisis",
+    "modal_title": "Recibe tu análisis completo",
+    "modal_subtitle": "Pon tu correo y te enviaremos un PDF con los resultados y nuestros consejos.",
+    "modal_placeholder": "Tu correo profesional",
+    "modal_button_sending": "Enviando...",
+    "modal_button_send": "Enviar y Descargar",
+    "modal_success_title": "¡Enviado!",
+    "modal_success_desc": "Revisa tu correo. El PDF también se ha descargado solo.",
+    "modal_close": "Cerrar",
+    "footer_note": "SKIRION.MEDIA · Resultados Garantizados",
+    "questions": [
+      "¿Tu empresa explica claramente qué hace y para quién?",
+      "¿Un cliente entiende en menos de 5 segundos qué gana?",
+      "¿Tu web tiene un mensaje claro que invita a comprar?",
+      "¿Tu web da confianza y se ve profesional?",
+      "¿La página carga rápido en el móvil?",
+      "¿El visitante sabe cuál es el siguiente paso que tiene que hacer?",
+      "¿Tu web tiene formularios sencillos para pedir información?",
+      "¿Tienes un botón de WhatsApp bien visible?",
+      "¿Ofreces alguna cosa gratis para conseguir contactos?",
+      "¿Respondes a los clientes interesados en menos de 5 minutos?",
+      "¿Tienes un sistema que responde solo al principio?",
+      "¿Tu empresa responde aunque esté cerrada?",
+      "¿Tienes todos los contactos bien organizados en un solo lugar?",
+      "¿Sabes de dónde viene cada cliente?",
+      "¿Separas a los clientes según si quieren comprar de verdad?",
+      "¿Los clientes pueden reservar una reunión por internet fácilmente?",
+      "¿Envías recordatorios automáticos de las citas?",
+      "¿Tienes un proceso claro desde que te contactan hasta que compras?",
+      "¿Vuelves a preguntar a los clientes que tienen un presupuesto?",
+      "¿Vuelves a escribir a los clientes que no han dicho nada?",
+      "¿Sabes qué clientes tienen más números de comprar?",
+      "¿Haces trabajos repetitivos que se podrían hacer solos?",
+      "¿Utilizas la IA para responder las preguntas de siempre?",
+      "¿Tienes sistemas para enviar información o papeles solo?",
+      "¿Sabes cuántos de los que preguntan acaban comprando de verdad?"
+    ]
+  },
+  "cta": {
+    "badge": "Riesgo Cero para Ti",
+    "title": "Solo avanzamos si vemos una oportunidad clara.",
+    "subtitle": "Buscamos socios que quieran hacer crecer su negocio con sistemas que realmente funcionan y ahorran tiempo.",
+    "button_primary": "Reserva 15 minutos",
+    "button_secondary": "Ver Ejemplos de Éxito",
+    "footer": "SKIRION.MEDIA © 2024 · Todos los derechos reservados · Confidencialidad Total"
+  },
+  "chatbot": {
+    "initial_message": "¡Hola! Soy el asistente de SKIRION. ¿Cómo puedo ayudarte a hacer tu negocio automático y dejar de perder dinero?",
+    "placeholder": "Escribe tu mensaje...",
+    "system_instruction": "Eres un asistente de SKIRION. Tu objetivo es que el cliente se dé cuenta de cuánto dinero pierde por no tener un negocio automático. Sé amable, directo y habla de manera que se entienda todo. Anímales a probar SKIRION."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "description": "Ayudamos a las empresas a crecer con IA y automatización."
+  }
+}
