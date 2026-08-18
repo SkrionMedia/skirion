@@ -1,11 +1,13 @@
 
 import React, { useState, useMemo } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Calculator, AlertCircle, TrendingUp, RefreshCcw, Building2, Euro, Clock } from 'lucide-react';
 
 const MarginLeakCalculator: React.FC = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [step, setStep] = useState(1);
   const [companyName, setCompanyName] = useState('');
   const [revenue, setRevenue] = useState(50000);
@@ -45,18 +47,18 @@ const MarginLeakCalculator: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="space-y-12"
+              className="space-y-8 md:space-y-12"
             >
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-brand-primary">
                   <Calculator size={24} />
-                  <span className="text-[10px] uppercase tracking-[0.4em] font-black">{t('calculator.title')}</span>
+                  <span className="text-[12px] uppercase tracking-[0.4em] font-black">{t('calculator.title')}</span>
                 </div>
               </div>
               
-              <div className="space-y-10">
+              <div className="space-y-6 md:space-y-10">
                 <div className="space-y-4">
-                  <label className="text-[10px] uppercase tracking-[0.3em] text-gray-500 font-black flex items-center gap-2 ml-4">
+                  <label className="text-xs uppercase tracking-[0.3em] text-gray-500 font-black flex items-center gap-2 ml-4">
                     <Building2 size={14} /> {t('calculator.company_name')}
                   </label>
                   <input 
@@ -69,7 +71,7 @@ const MarginLeakCalculator: React.FC = () => {
                 </div>
 
                 <div className="space-y-4">
-                  <label className="text-[10px] uppercase tracking-[0.3em] text-gray-500 font-black flex items-center gap-2 ml-4">
+                  <label className="text-xs uppercase tracking-[0.3em] text-gray-500 font-black flex items-center gap-2 ml-4">
                     <Euro size={14} /> {t('calculator.monthly_revenue')}
                   </label>
                   <div className="space-y-6">
@@ -82,14 +84,14 @@ const MarginLeakCalculator: React.FC = () => {
                       onChange={(e) => setRevenue(Number(e.target.value))}
                       className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-brand-primary"
                     />
-                    <div className="text-5xl font-black text-white tracking-tighter italic">
+                    <div className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tighter italic">
                       {revenue.toLocaleString()}€ <span className="text-sm text-gray-500 font-black uppercase tracking-widest ml-2">{t('calculator.per_month')}</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="space-y-4">
-                  <label className="text-[10px] uppercase tracking-[0.3em] text-gray-500 font-black flex items-center gap-2 ml-4">
+                  <label className="text-xs uppercase tracking-[0.3em] text-gray-500 font-black flex items-center gap-2 ml-4">
                     <Clock size={14} /> {t('calculator.time_spent')}
                   </label>
                   <div className="space-y-6">
@@ -102,7 +104,7 @@ const MarginLeakCalculator: React.FC = () => {
                       onChange={(e) => setTimeSpent(Number(e.target.value))}
                       className="w-full h-1.5 bg-white/10 rounded-lg appearance-none cursor-pointer accent-brand-secondary"
                     />
-                    <div className="text-5xl font-black text-white tracking-tighter italic">
+                    <div className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tighter italic">
                       {timeSpent} <span className="text-sm text-gray-500 font-black uppercase tracking-widest ml-2">{t('calculator.per_week')}</span>
                     </div>
                   </div>
@@ -112,7 +114,7 @@ const MarginLeakCalculator: React.FC = () => {
               <button 
                 onClick={nextStep}
                 disabled={!companyName}
-                className="w-full py-8 bg-brand-primary text-black font-black text-[10px] uppercase tracking-[0.4em] rounded-2xl flex items-center justify-center gap-3 hover:scale-105 transition-all duration-500 disabled:opacity-30 disabled:cursor-not-allowed shadow-2xl shadow-brand-primary/20"
+                className="w-full py-8 bg-brand-primary text-black font-black text-[12px] uppercase tracking-[0.4em] rounded-2xl flex items-center justify-center gap-3 hover:scale-105 transition-all duration-500 disabled:opacity-30 disabled:cursor-not-allowed shadow-2xl shadow-brand-primary/20"
               >
                 {t('calculator.calculate')} <ArrowRight size={18} />
               </button>
@@ -124,49 +126,52 @@ const MarginLeakCalculator: React.FC = () => {
               key="step2"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="space-y-16 text-center"
+              className="space-y-10 md:space-y-16 text-center"
             >
-              <div className="w-24 h-24 bg-red-500/10 rounded-full flex items-center justify-center mx-auto">
-                <AlertCircle className="text-red-500" size={48} />
+              <div className="w-20 h-20 md:w-24 md:h-24 bg-red-500/10 rounded-full flex items-center justify-center mx-auto">
+                <AlertCircle className="text-red-500" size={40} />
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-6xl font-black text-white uppercase tracking-tighter leading-[0.85]">
+                <h3 className="text-3xl sm:text-4xl md:text-6xl font-black text-white uppercase tracking-tighter leading-[1.3] py-2 break-words">
                   {t('calculator.result_title')}
                 </h3>
-                <p className="text-gray-500 text-xl font-light max-w-md mx-auto tracking-tight">
+                <p className="text-gray-500 text-lg sm:text-xl font-light max-w-md mx-auto tracking-tight">
                   {t('calculator.result_desc')}
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="p-12 bg-red-500/[0.05] border border-red-500/20 rounded-[3rem] group transition-all hover:bg-red-500/[0.08]">
-                  <div className="text-5xl md:text-6xl font-black text-red-500 tracking-tighter mb-3 italic">
+              <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+                <div className="p-8 md:p-12 bg-red-500/[0.05] border border-red-500/20 rounded-[3rem] group transition-all hover:bg-red-500/[0.08]">
+                  <div className="text-3xl sm:text-4xl md:text-6xl font-black text-red-500 tracking-tighter mb-3 italic">
                     {results.monthlyLoss.toLocaleString()}€
                   </div>
-                  <div className="text-[10px] uppercase tracking-[0.5em] text-red-400 font-black">{t('calculator.monthly_loss_label')}</div>
+                  <div className="text-sm uppercase tracking-[0.5em] text-red-400 font-black">{t('calculator.monthly_loss_label')}</div>
                 </div>
 
-                <div className="p-12 bg-red-500/[0.05] border border-red-500/20 rounded-[3rem] group transition-all hover:bg-red-500/[0.08]">
-                  <div className="text-5xl md:text-6xl font-black text-red-500 tracking-tighter mb-3 italic">
+                <div className="p-8 md:p-12 bg-red-500/[0.05] border border-red-500/20 rounded-[3rem] group transition-all hover:bg-red-500/[0.08]">
+                  <div className="text-3xl sm:text-4xl md:text-6xl font-black text-red-500 tracking-tighter mb-3 italic">
                     {results.annualLoss.toLocaleString()}€
                   </div>
-                  <div className="text-[10px] uppercase tracking-[0.5em] text-red-400 font-black">{t('calculator.lost_revenue_label')}</div>
+                  <div className="text-sm uppercase tracking-[0.5em] text-red-400 font-black">{t('calculator.lost_revenue_label')}</div>
                 </div>
               </div>
 
-              <div className="p-10 bg-emerald-500/[0.05] border border-emerald-500/20 rounded-[3rem] text-center">
-                <div className="text-[10px] text-emerald-500 uppercase tracking-[0.4em] font-black mb-3">{t('calculator.recovery_label')}</div>
-                <div className="text-5xl font-black text-emerald-500 tracking-tighter italic">+{results.recoveryPotential.toLocaleString()}€ {t('calculator.per_year')}</div>
+              <div className="p-6 md:p-10 bg-emerald-500/[0.05] border border-emerald-500/20 rounded-[3rem] text-center">
+                <div className="text-sm text-emerald-500 uppercase tracking-[0.4em] font-black mb-3">{t('calculator.recovery_label')}</div>
+                <div className="text-3xl sm:text-4xl md:text-5xl font-black text-emerald-500 tracking-tighter italic">+{results.recoveryPotential.toLocaleString()}€ {t('calculator.per_year')}</div>
               </div>
 
               <div className="space-y-8 pt-4">
-                <button className="w-full py-8 bg-brand-primary text-black font-black text-[10px] uppercase tracking-[0.4em] rounded-2xl hover:scale-105 transition-all duration-500 flex items-center justify-center gap-3 shadow-2xl shadow-brand-primary/20">
+                <button 
+                  onClick={() => navigate('/contacto')}
+                  className="w-full py-8 bg-brand-primary text-black font-black text-[12px] uppercase tracking-[0.4em] rounded-2xl hover:scale-105 transition-all duration-500 flex items-center justify-center gap-3 shadow-2xl shadow-brand-primary/20"
+                >
                   {t('calculator.cta_recover')} <TrendingUp size={18} />
                 </button>
                 <button 
                   onClick={reset}
-                  className="text-[10px] text-gray-500 uppercase tracking-[0.4em] font-black hover:text-white transition-colors flex items-center gap-2 mx-auto"
+                  className="text-[12px] text-gray-500 uppercase tracking-[0.4em] font-black hover:text-white transition-colors flex items-center gap-2 mx-auto"
                 >
                   <RefreshCcw size={14} /> {t('calculator.recalculate')}
                 </button>

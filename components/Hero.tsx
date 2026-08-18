@@ -28,24 +28,11 @@ const Hero: React.FC = () => {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-primary/5 blur-[150px] rounded-full pointer-events-none z-0"></div>
       
       <div className="max-w-5xl mx-auto relative z-10">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="mb-8 inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-[10px] uppercase tracking-[0.3em] text-brand-primary font-bold"
-        >
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-primary/40 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-primary"></span>
-          </span>
-          <span>{t('hero.badge')}</span>
-        </motion.div>
-        
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-5xl md:text-8xl font-black mb-8 leading-[1] tracking-tighter text-gradient uppercase"
+          className="text-3xl sm:text-4xl md:text-8xl font-black mb-4 md:mb-8 leading-[1.1] py-4 tracking-tighter text-gradient uppercase break-words"
         >
           {t('hero.title')}
         </motion.h1>
@@ -54,7 +41,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-12 font-light leading-relaxed tracking-tight"
+          className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-8 md:mb-12 font-light leading-relaxed tracking-tight"
         >
           {t('hero.subtitle')}
         </motion.p>
@@ -63,12 +50,12 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16"
+          className="flex flex-col md:flex-row items-center justify-center gap-6 mb-10 md:mb-16"
         >
-          <Link to="/contacte" className="px-10 py-5 bg-white text-black font-black rounded-full hover:scale-105 transition-all text-xs uppercase tracking-[0.3em] flex items-center gap-2 shadow-xl shadow-white/5">
+          <Link to="/contacto" className="px-10 py-5 bg-white text-black font-black rounded-full hover:scale-105 transition-all text-sm uppercase tracking-[0.3em] flex items-center gap-2 shadow-xl shadow-white/5">
             {t('contact.calendar_title')} <ArrowRight size={16} />
           </Link>
-          <Link to="/serveis" className="px-10 py-5 border border-white/10 text-white font-black rounded-full hover:bg-white/5 transition-all text-xs uppercase tracking-[0.3em]">
+          <Link to="/servicios" className="px-10 py-5 border border-white/10 text-white font-black rounded-full hover:bg-white/5 transition-all text-sm uppercase tracking-[0.3em]">
             {t('nav.services')}
           </Link>
         </motion.div>
@@ -82,15 +69,15 @@ const Hero: React.FC = () => {
         >
           <div className="flex items-center justify-center gap-3 text-gray-600">
             <Clock size={18} className="text-brand-primary" />
-            <span className="text-[10px] uppercase tracking-widest font-black">{t('security.timeline')}</span>
+            <span className="text-[12px] uppercase tracking-widest font-black">{t('security.timeline')}</span>
           </div>
           <div className="flex items-center justify-center gap-3 text-gray-600">
             <ShieldCheck size={18} className="text-brand-primary" />
-            <span className="text-[10px] uppercase tracking-widest font-black">{t('security.tags.0')}</span>
+            <span className="text-[12px] uppercase tracking-widest font-black">{t('security.tags.0')}</span>
           </div>
           <div className="flex items-center justify-center gap-3 text-gray-600">
             <Zap size={18} className="text-brand-primary" />
-            <span className="text-[10px] uppercase tracking-widest font-black">{t('hero.points.0')}</span>
+            <span className="text-[12px] uppercase tracking-widest font-black">{t('hero.points.0')}</span>
           </div>
         </motion.div>
       </div>
