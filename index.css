@@ -4,6 +4,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--navbar-height, 220px);
+  }
+  
   body {
     font-family: 'Inter', sans-serif;
     background: radial-gradient(circle at 50% 0%, #001a4d 0%, #020617 100%);
@@ -11,6 +16,8 @@
     color: #fff;
     margin: 0;
     overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     letter-spacing: -0.01em;
   }
@@ -73,12 +80,26 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .silver-text {
+    background: linear-gradient(to bottom, #ffffff 30%, #a1a1a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .accent-gradient {
     background: linear-gradient(135deg, #0052FF 0%, #7000FF 100%);
   }
 
   .nav-pill {
     @apply glass-card px-8 py-4 rounded-full border border-white/5 flex items-center justify-between;
+  }
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply break-words;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 
@@ -89,18 +110,25 @@
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: #020617;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1a1a1a;
-  border-radius: 10px;
+  background: #0052FF;
+  border-radius: 6px;
+  border: 3px solid #020617;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2a2a2a;
+  background: #0041cc;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0052FF #020617;
 }
