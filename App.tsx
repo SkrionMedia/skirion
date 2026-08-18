@@ -6,10 +6,8 @@ import { Loader2 } from 'lucide-react';
 const Home = lazy(() => import('./pages/Home'));
 const Services = lazy(() => import('./pages/Services'));
 const DigitalAgents = lazy(() => import('./pages/Agents'));
-const Sectors = lazy(() => import('./pages/Sectors'));
-const SectorDetail = lazy(() => import('./pages/SectorDetail'));
+const SectorsDetail = lazy(() => import('./pages/SectorsDetail'));
 const Contact = lazy(() => import('./pages/Contact'));
-const Plans = lazy(() => import('./pages/MembershipPlans'));
 const AutomationGuide = lazy(() => import('./pages/AutomationGuide'));
 const Masterclass = lazy(() => import('./pages/Masterclass'));
 const Checklist = lazy(() => import('./pages/Checklist'));
@@ -49,26 +47,35 @@ function App() {
         <Suspense fallback={<PageLoader />}>
           <Routes>
             <Route path="/" element={<Home />} />
+            
+            {/* Servicios & Agentes */}
             <Route path="/servicios" element={<Services />} />
             <Route path="/serveis" element={<Services />} />
             <Route path="/services" element={<Services />} />
             <Route path="/agentes-digitales" element={<DigitalAgents />} />
             <Route path="/agents-digitals" element={<DigitalAgents />} />
             <Route path="/digital-agents" element={<DigitalAgents />} />
-            <Route path="/sectores" element={<Sectors />} />
-            <Route path="/sectors" element={<Sectors />} />
-            <Route path="/sectores/:id" element={<SectorDetail />} />
-            <Route path="/sectors/:id" element={<SectorDetail />} />
-            <Route path="/planes" element={<Plans />} />
-            <Route path="/plans" element={<Plans />} />
+            
+            {/* Sectores */}
+            <Route path="/sectors/:id" element={<SectorsDetail />} />
+            <Route path="/sectores/:id" element={<SectorsDetail />} />
+            <Route path="/sectors" element={<Home />} />
+            <Route path="/sectores" element={<Home />} />
+            
+            {/* Planes & Contacto */}
+            <Route path="/planes" element={<Home />} />
+            <Route path="/plans" element={<Home />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="/contacte" element={<Contact />} />
             <Route path="/contact" element={<Contact />} />
+            
+            {/* Diagnóstico & Recursos */}
             <Route path="/checklist" element={<Checklist />} />
             <Route path="/diagnostic" element={<Checklist />} />
             <Route path="/diagnostico" element={<Checklist />} />
             <Route path="/recursos/guia-automatizacion" element={<AutomationGuide />} />
             <Route path="/recursos/masterclass-content-engine" element={<Masterclass />} />
+            
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>
