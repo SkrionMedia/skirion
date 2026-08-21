@@ -82,15 +82,18 @@ export const submitToFormspree = async (data: Record<string, any> | FormData) =>
   try {
     const [response] = await Promise.all(promises);
 
-    if (response.ok) {
-      return { success: true };
-    } else {
-      const errorData = await response.json().catch(() => ({}));
-      throw new Error(errorData.error || 'Error en el envío del formulario.');
-    }
-  } catch (error) {
-    console.error('Form submission error:', error);
-    throw error;
-  }
-};
+   if (response.ok) {
+  return { success: true };
+} else {
+  const errorData = await response.json().catch(() => ({}));
+
+  console.error('Formspree error:', errorData);
+
+  const errorMessage =
+    errorData?.errors?.map((e: any) => e.message).join(', ') ||
+    errorData?.error ||
+    'Error en el envío del formulario.';
+
+  throw new Error(errorMessage);
+}
 
